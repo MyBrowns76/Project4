@@ -19,9 +19,34 @@
   
   </head>
   <header class="header">
+     
   <!-- <a class="gotopbtn" href="#"> <i class="fa fa-arrow-up text-md-left"></i> </a>       -->
   <body>
-   
+   <button onclick="topFunction()" id="myBtn" title="Go to top" style="margin-bottom:100px; margin-right: -10px;">Top</button>
+
+
+
+   <script>
+   //Get the button
+   var mybutton = document.getElementById("myBtn");
+
+   // When the user scrolls down 20px from the top of the document, show the button
+   window.onscroll = function() {scrollFunction()};
+
+   function scrollFunction() {
+   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+   } else {
+      mybutton.style.display = "none";
+   }
+   }
+
+   // When the user clicks on the button, scroll to the top of the document
+   function topFunction() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+   }
+   </script>
    
     
       <!-- <img src="/images/QuadLogo2.png" alt="QuadLogo1"class="rounded-left" height="80px"> -->
@@ -108,6 +133,7 @@
                   </a>
                   </div>
                   
+                  
                </div>
                   <div class="videos">
                      <!-- a video starts -->
@@ -151,7 +177,7 @@
                                     <!-- <div style="margin-top: 50px;" > -->
                                       <div class="thumbnail">
                                     
-                                         <img src="/images/VideoPic3.webp" alt="" />
+                                         <img src="./images/VideoPic3.webp" alt="" />
                                        </div>
                                     
                                        
@@ -183,7 +209,7 @@
                                                   <div class="video">
                                                      
                                                      <div class="thumbnail"style="margin-top: -25px;">
-                                                        <img src="/images/VideoPic4.webp" alt="" />
+                                                        <img src="./images/VideoPic4.webp" alt="" />
                                                       </div>
                                                    </div>       
                                                
@@ -213,7 +239,7 @@
                                                                <!-- a video starts -->
                                                                  <div class="video">
                                                                     <div class="thumbnail">
-                                                                       <img src="/images/Feeding Quad2.jpg" alt="" />
+                                                                       <img src="./images/Feeding Quad2.jpg" alt="" />
                                                                     
                                                                   
                                                                     
@@ -242,7 +268,7 @@
                                                                         </div>
                                                                         <div class="video">
                                                                            <div class="thumbnail">
-                                                                              <img src="/images/Feeding Quad.jpg" alt="" />
+                                                                              <img src="./images/Feeding Quad.jpg" alt="" />
                                                                            </div>
                                                                         </div>       
                                                                     
@@ -271,7 +297,7 @@
                                                                                   </div>
                                                                                   <div class="video">
                                                                                     <div class="thumbnail">
-                                                                                       <img src="/images/Using bathroom.jpg" style="margin-top: 5px;" alt="" />
+                                                                                       <img src="./images/Using bathroom.jpg" style="margin-top: 5px;" alt="" />
                                                                                     </div>
                                                                                  </div>       
                                                                              
@@ -304,7 +330,7 @@
                                                                                            
                                                                                            <div class="video">
                                                                                              <div class="thumbnail">
-                                                                                                <img src="/images/Using bathroom2.jpg" style="margin-top: 1px;" alt="" />
+                                                                                                <img src="./images/Using bathroom2.jpg" style="margin-top: 1px;" alt="" />
                                                                                              </div>
                                                                                                 
                                                                                           
@@ -336,7 +362,7 @@
 
                                                                                                     <div class="video">
                                                                                                       <div class="thumbnail">
-                                                                                                         <img src="/images/Day in life.webp" style="margin-top: 1px;" alt="" />
+                                                                                                         <img src="./images/Day in life.webp" style="margin-top: 1px;" alt="" />
                                                                                                       </div>
                                                                                                          
                                                                                                    
@@ -367,7 +393,7 @@
                                                                                                              </div>
                                                                                                              <div class="video">
                                                                                                                <div class="thumbnail">
-                                                                                                                  <img src="/images/Transportation Quad.jpg" style="margin-top: 1px;" alt="" />
+                                                                                                                  <img src="./images/Transportation Quad.jpg" style="margin-top: 1px;" alt="" />
                                                                                                                </div>
                                                                                                                   
                                                                                                             </div>
@@ -402,7 +428,7 @@
 
                                                                                                                      <div class="video">
                                                                                                                         <div class="thumbnail">
-                                                                                                                           <img src="/images/Flying as Quad.jpg" style="margin-top: 1px;" alt="" />
+                                                                                                                           <img src="./images/Flying as Quad.jpg" style="margin-top: 1px;" alt="" />
                                                                                                                         </div>
                                                                                                                            
                                                                                                                      
@@ -433,7 +459,7 @@
                                                                                                                                </div>
                                                                                                                                <div class="video">
                                                                                                                                  <div class="thumbnail">
-                                                                                                                                    <img src="/images/Independent living.jpg" style="margin-top: 5px;" alt="" />
+                                                                                                                                    <img src="./images/Independent living.jpg" style="margin-top: 5px;" alt="" />
                                                                                                                                  </div>
                                                                                                                                     
                                                                                                                               
@@ -464,7 +490,7 @@
                                                                                                                                         </div>
                                                                                                                                         <div class="video">
                                                                                                                                           <div class="thumbnail">
-                                                                                                                                             <img src="/images/Shopping Quad.jpg" style="margin-top: 1px;" alt="" />
+                                                                                                                                             <img src="./images/Shopping Quad.jpg" style="margin-top: 1px;" alt="" />
                                                                                                                                           </div>
                                                                                                                                              
                                                                                                                                        
@@ -528,6 +554,7 @@
                                                                                                                             </footer>
                                                                                                                             
                                                                                                                             </div>
+                                                                                                                           
                                                                                                                                                                     
                                                                                                                                             
                                                                                                                               
