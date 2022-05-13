@@ -133,28 +133,32 @@ background-color: rgba(128, 128, 128, 0);
   
   
  }
-body::-webkit-scrollbar {
-  width: 15px; 
+/* body::-webkit-scrollbar {
+  width: 15px;  */
+  
   /* display: none; */
               /* width of the entire scrollbar */
-} 
+/* }  */
 /* a:hover {
  
   font-weight: bold;
  } */
-body::-webkit-scrollbar-track {
-  background: gray;        /* color of the tracking area */
-}
+/* body::-webkit-scrollbar-track {
+  background: gray;        color of the tracking area */
+/* } */
 
-body::-webkit-scrollbar-thumb {
-  background-color: whitesmoke;   /* color of the scroll thumb */
-  border-radius: 50%;       /* roundness of the scroll thumb */
-  border: 4px solid #00BBC9;  /* creates padding around scroll thumb */
-} 
+/* body::-webkit-scrollbar-thumb {
+  background-color: whitesmoke;   color of the scroll thumb */
+  /* border-radius: 50%;       /* roundness of the scroll thumb */
+  /* border: 4px solid #00BBC9;  creates padding around scroll thumb */
+/* }  */ 
 #offcanvasNavbar {
   background-image: linear-gradient(to bottom right, #999797, #F5FFFA, silver);
  
 }
+/* ::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}  */
 .offcanvas-header {
   background-color: whitesmoke;
 

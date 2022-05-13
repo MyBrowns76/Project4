@@ -11,6 +11,7 @@ html,body{
   place-items: center;
   text-align: center;
   background: whitesmoke;
+  
   margin: 0;
   margin-bottom: 10rem;
   padding-left: 7rem;
@@ -38,7 +39,9 @@ html,body{
   
   width: 110%;
   left: 0;
-  height: 130px;
+  height: 90px;
+  position: relative; 
+  top: -10px;
   background-color: black;
   padding: 20px 10px;
  
@@ -196,9 +199,9 @@ form .btn button{
   background: #1b1b1b;
 } */
 
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: black; 
-}  
+}   */
 /* .gotopbtn:hover {
 color: whitesmoke;
 color: black;} */
@@ -259,24 +262,26 @@ color: black;} */
     padding-bottom: 80px;
     margin-top: -260px; */  
   }
-   body::-webkit-scrollbar {
+   /* body::-webkit-scrollbar {
     width: 15px; 
-    z-index: hidden;
+    z-index: hidden; */
+    
                /* width of the entire scrollbar */
-   } 
+   /* }  */
    
-  
+/*   
   body::-webkit-scrollbar-track {
-    background: gray;        /* color of the tracking area */
+    background: gray;        color of the tracking area */
     
-   }
+   /* } */
   
-  body::-webkit-scrollbar-thumb {
+  /* body::-webkit-scrollbar-thumb {
     background-color: whitesmoke;   /* color of the scroll thumb */
-      border-radius: 50%;      
-     border: 4px solid #00BBC9;  
+      /* border-radius: 50%;      
+     border: 4px solid #00BBC9; 
+      
     
-   } 
+   }  */ 
   
   /* html{
     scroll-behavior: smooth;
@@ -372,13 +377,14 @@ color: black;} */
   
   .header a:hover {
   
-    color: #51aaa3;
+    color: red;
   }
   
   .header a.active {
     background-color: #51aaa3;
     color: white;
   }
+  
   
   .header-right {
     float: right;
@@ -396,7 +402,33 @@ color: black;} */
       float: none;
     }
   }
- 
+  @media (max-width: 1200px) {
+    #search-form { width: 50%; }
+  }
+  @media (max-width: 768px) {
+    .container { padding: 30px 35px; }
+    #search-form { width: 100%; }
+    .info { font-size: 0.5rem; }
+  }
+  
+  @media (max-width: 768px) {
+    .side-bar {
+      display: none;
+    }
+    .search {
+      display: none;
+    }
+  }
+  @media (max-width: 900px) {
+    .search input {
+      width: 25rem;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
  
   
  

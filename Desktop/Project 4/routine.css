@@ -332,26 +332,26 @@ transition:opacity 0.5s
   border-color: greenyellow;
   
  }  */
-body::-webkit-scrollbar {
-  width: 15px;
+/* body::-webkit-scrollbar {
+  width: 15px; */
 
  
              /* width of the entire scrollbar */
-} 
+/* }  */
 
-body::-webkit-scrollbar-track {
-  background: gray; 
+/* body::-webkit-scrollbar-track {
+  background: gray;  */
  
          /* color of the tracking area */
   
-}
+/* } */
 
-body::-webkit-scrollbar-thumb {
-  background-color: whitesmoke;   /* color of the scroll thumb */
-   border-radius: 50%;       /* roundness of the scroll thumb */
-  border: 4px solid #00BBC9;  /* creates padding around scroll thumb */
+/* body::-webkit-scrollbar-thumb {
+  background-color: whitesmoke;   color of the scroll thumb */
+   /* border-radius: 50%;       /* roundness of the scroll thumb */
+  /* border: 4px solid #00BBC9;  /* creates padding around scroll thumb */
  
-}
+/* } */ 
 /* .gotopbtn{
   position:fixed;
   width: 50px;

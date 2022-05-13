@@ -107,22 +107,22 @@ nav ul li a {
   border-color:  rgba(18,72,120, 0.8);
   
  }  */
-body::-webkit-scrollbar {
-  width: 15px; 
+/* body::-webkit-scrollbar {
+  width: 15px;  */
              /* width of the entire scrollbar */
-} 
+/* }  */
 
-body::-webkit-scrollbar-track {
-  background: gray;        /* color of the tracking area */
+/* body::-webkit-scrollbar-track {
+  background: gray;        color of the tracking area */
   
-}
+/* } */
 
-body::-webkit-scrollbar-thumb {
+/* body::-webkit-scrollbar-thumb {
   background-color: whitesmoke;   /* color of the scroll thumb */
-  border-radius: 50%;       /* roundness of the scroll thumb */
-  border: 4px solid #00BBC9;  /* creates padding around scroll thumb */
+  /* border-radius: 50%;       /* roundness of the scroll thumb */
+  /* border: 4px solid #00BBC9;  creates padding around scroll thumb */
   
-}
+/* } */ */ */
 *{
   margin: 0%;
   padding: 0%;
