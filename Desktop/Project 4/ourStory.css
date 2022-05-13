@@ -341,6 +341,61 @@ color: black;} */
   #myBtn:hover {
     background-color: #555;
   }
+  .header {
+    overflow: hidden;
+    background-color: black;
+    margin-left: 42.5em;
+    margin-right: 52em;
+    margin-top: -180px;
+    display: flex;
+    align-items: center;
+  padding: 0 32px;
+  justify-content: space-between;
+  
+
+  }
+  
+  
+  .header a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+   
+  }
+  
+  
+  
+  .header a:hover {
+  
+    color: #51aaa3;
+  }
+  
+  .header a.active {
+    background-color: #51aaa3;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+ 
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+  }
  
  
   

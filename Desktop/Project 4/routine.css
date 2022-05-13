@@ -394,7 +394,7 @@ body::-webkit-scrollbar-thumb {
 .container {
   padding: 15px 30px;
 }
-#search-form {
+#search-form{
   width: 170%;
   margin: 0 auto;
   position: relative;
@@ -402,13 +402,16 @@ body::-webkit-scrollbar-thumb {
  
 }
 #search-form input {
+  
   width: 100%;
   font-size: 1.5rem;
   padding: 3px 3px;
   border: 4px solid #51aaa3;
   border-radius: 2px;
+  /* font-weight: bolder; */
   
 }
+
 
 #search-form button {
   position: absolute;
@@ -430,6 +433,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0.5rem;
   text-align: center;
   font-size: 0.75rem;
+ 
 }
 
 @media (max-width: 1200px) {
