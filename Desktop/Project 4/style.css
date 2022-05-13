@@ -179,10 +179,7 @@ body::-webkit-scrollbar-thumb {
 } */
 
  /* Handle on hover */
-   ::-webkit-scrollbar-thumb:hover {
-           background: black; 
-           border-radius: 50%;
-     }  
+      
    .gotopbtn:hover {
     color: whitesmoke;
     color: black;

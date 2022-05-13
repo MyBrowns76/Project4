@@ -7,6 +7,7 @@ body{ display: flex; flex-wrap: wrap; justify-content: center; background: grey;
   
   }
   
+  
   .card{margin-top: 100px;
   background: #17141d;
   background: white;
@@ -144,7 +145,7 @@ body{ display: flex; flex-wrap: wrap; justify-content: center; background: grey;
     transform: translateZ(-1px); /*or z-index */
     animation: rgb 6s linear infinite;
   }
-.gotopbtn{
+/* .gotopbtn{
   position: fixed;
   width: 50px;
   height: 50px;
@@ -157,7 +158,7 @@ body{ display: flex; flex-wrap: wrap; justify-content: center; background: grey;
   line-height: 50px;
   color: whitesmoke;
   font-size: 22px;
-}
+} */
 .lead {
   color: whitesmoke;
   font-size: 2.2rem;
@@ -266,12 +267,19 @@ a:hover {
   margin-right: -125px;
   overflow-y: hidden;
   width: 110%;
-  height: 150px;
+  height: 135px;
   background-color: black;
   padding: 20px 10px;
   
 }
 
+p{
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+q{
+  margin-bottom: 50px;
+}
 
   .icon1{
     color: yellow;
@@ -327,9 +335,11 @@ h5{
 
 body::-webkit-scrollbar {
   width: 15px; 
+  height: 100vh;
   
               /* width of the entire scrollbar */
 } 
+
 
 body::-webkit-scrollbar-track {
   background: gray;        /* color of the tracking area */
@@ -339,6 +349,7 @@ body::-webkit-scrollbar-thumb {
   background-color: whitesmoke;   /* color of the scroll thumb */
   border-radius: 50%;       /* roundness of the scroll thumb */
   border: 4px solid #00BBC9;  /* creates padding around scroll thumb */
+  
 } 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @media (max-width: 768px) {
