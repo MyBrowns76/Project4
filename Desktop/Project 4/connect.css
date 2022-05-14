@@ -447,6 +447,7 @@ i {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   
 }
 
@@ -457,8 +458,9 @@ i {
 
 #msg {
   color: red;
-padding-left: 50px;
+padding-left: 70px;
 margin-bottom: 10px;
+
 } 
 
 #myBtn {
@@ -480,6 +482,9 @@ margin-bottom: 10px;
 #myBtn:hover {
   background-color: #555;
 }    
+button:hover{
+  color: red;
+}
 
 
 

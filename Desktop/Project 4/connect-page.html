@@ -17,22 +17,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
-<style>
+<!-- <style>
 
   html::-webkit-scrollbar{
     width: .5vw;
-    height: .5vw;
+   
   }
   
-  /* html::-webkit-scrollbar-track-thumb{
-    background-color: gray;
-  } */
+  html::-webkit-scrollbar-track-thumb{
+    height: .1vw;
+  }
   html::-webkit-scrollbar-track {
     background-color: red;
   }
   
 
-</style>
+</style> -->
 
 <body>
  
@@ -95,11 +95,11 @@
     <div class="col-md-12">
   <div class="card flex-md-row mb-4 box-shadow h-md-350  ">
     <div class="card-body d-flex flex-column align-items-center"> 
-  <h2>Share Your Comment</h2>
+  <h2 style="margin-left: 25px;">Share Your Comment</h2>
   <div class="container">
     <div class="left">
       <form id="form">
-        <label for="" >Write your comment here</label>
+        <label for=""style="margin-left: 15px;" >Write your comment here</label>
         <br><br>
         <textarea name="" id="input" cols="30" rows="10"></textarea>
         <br><br>
@@ -109,8 +109,9 @@
       </div>
       </form>
     </div>
+    
     <div class="right">
-      <h3>Your posts here</h3>
+      <h3 >Your posts here</h3>
       <div id="posts">
         <div>
           <p>Post 1</p>
