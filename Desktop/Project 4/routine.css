@@ -402,7 +402,7 @@ transition:opacity 0.5s
  
 }
 #search-form input {
-  
+ 
   width: 100%;
   font-size: 1.5rem;
   padding: 3px 3px;
@@ -411,7 +411,6 @@ transition:opacity 0.5s
   /* font-weight: bolder; */
   
 }
-
 
 #search-form button {
   position: absolute;
@@ -435,6 +434,7 @@ transition:opacity 0.5s
   font-size: 0.75rem;
  
 }
+
 
 @media (max-width: 1200px) {
   #search-form { width: 50%; }
