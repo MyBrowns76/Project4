@@ -434,6 +434,9 @@ transition:opacity 0.5s
   font-size: 0.75rem;
  
 }
+a:hover{
+  color: red;
+}
 
 
 @media (max-width: 1200px) {
