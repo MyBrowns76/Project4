@@ -15,7 +15,8 @@ body {
   padding: 0;
   
 }
-.gotopbtn{
+
+/* .gotopbtn{
   position:fixed;
   width: 50px;
   height: 50px;
@@ -28,13 +29,14 @@ body {
   line-height: 50px;
   color: whitesmoke;
   font-size: 22px;
-}
+} */
 .btn-outline-dark {
+  background-color: black;
   border-radius:  100px / 50px;
   size-adjust: 50px;
 }
 .btn-outline-dark1 {
-  color: black;
+  color: red;
  color: whitesmoke;
  
  background-color: #51aaa3 ;
@@ -49,13 +51,13 @@ body {
   
   
 .carousel-inner{
-  background-color: #51aaa3;
+ 
   border-radius: 100px / 50px;
   /* background-size: 100px, 200px; */
    width: 60%;
    height: 60%;
-   box-shadow:  black;
-   box-shadow: -1rem 0 3rem #000;
+   /* box-shadow:  black;
+   box-shadow: -1rem 0 3rem #000; */
    /* border-radius: 10px 140px ;  */
    padding-top: 80px;
    margin-left: 250px;
