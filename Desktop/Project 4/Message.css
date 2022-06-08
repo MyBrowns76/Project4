@@ -218,5 +218,7 @@ body
     size-adjust: 50px;
     
   }
-
+  .content a:hover{
+    background-color: red;
+  }
   
