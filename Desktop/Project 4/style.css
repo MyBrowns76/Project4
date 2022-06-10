@@ -807,6 +807,24 @@ h5{
   and (orientation: landscape) { 
 
 }
+@media only screen and (max-width: 1000px) {
+  .fab{
+    margin-left: -200px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .carousel-inner  {
+    z-index: 10 !important;
+  
+  }
+  }
+  
+ 
+  
+
+
+  
+ 
 
 /* @media screen and (max-width: 320px) { 
   #footer{
