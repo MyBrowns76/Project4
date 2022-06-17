@@ -274,114 +274,7 @@ a:link { text-decoration: none;
       /* transform: translate(-50%,-50%); */
      
       }   
-   /* .things > .content {
-    float: left;
-    width: 50%;
-    height: 500px;
-    -webkit-box-sizing: border-box; 
-   -moz-box-sizing: border-box;    
-    box-sizing: border-box;
-    position: relative;
-    padding-left: 620px;
-    overflow: hidden;
-    text-align: right;
-    margin-top: 10px; 
-     padding-top: -1em; 
-    
-  } */
-
-    /* /* .things > .content h1 {
-      font-family: 'Arial', sans-serif;
-      text-transform: uppercase;
-      top: 0;
-      bottom: 0;
-      left: 0;
-       left: -25%;
-      right: 100%; 
-      margin: auto;
-      position: absolute;
-      height: 150px;
-      color: #89323B;
-     padding-left: 200px;
-    } */
-    /* .arrow {
-      position: relative;
-       margin: 0 auto;
-       width: 100px;
-       margin-top: 90px;
-      
-      
-     
-      
-     } */
-     
-     /* .arrow .curve {
-     border: 2px solid #BE5F4B;
-     border-color: transparent transparent transparent #BE5F4B;
-     height: 360px;
-     width: 1200px;
-    
-     border-radius: 230px 0 0 150px;  */
-     /* padding-right: -150px; */
-   
-   
-      
-   
-     /* } 
-     
-     .arrow .point {
-     position: absolute;
-     left: 40px;
-     top: 315px;
-    
-    
-     
-   
-     }
-     
-     .arrow .point:before, .arrow .point:after {
-     border: 1px solid #BE5F4B;
-     height: 25px;
-     content: "";
-     position: absolute;
-    
-     
-     }
-     
-     .arrow .point:before {
-     top: -11px;
-     left: -11px;
-     transform:rotate(-74deg);
-     -webkit-transform:rotate(-74deg);
-       -moz-transform:rotate(-74deg);
-       -ms-transform: rotate(-74deg);
-     
-     }
-     
-     .arrow .point:after {
-      top: -20px;
-      left: 5px;
-      transform:rotate(12deg);
-      -webkit-transform: rotate(12deg);
-      -moz-transform:rotate(12deg);
-       -ms-transform: rotate(12deg);
-      
-      
-     }
-    
-   /* #comment-box, #post, #unordered {
-      border-radius: 5px;  
-      position: relative;  */
-       /* margin-left: 100%;       
-       box-shadow: 3px 3px red, -1em 0.4em black; 
-   } 
-  #post:hover{
-      background-color: greenyellow;
-  }
-   /* a:hover{
-    color: #7fff00 !important;
-   
-  }    */ 
+ 
 
    a:hover{
     color: red !important;
@@ -681,141 +574,56 @@ button:hover{
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
-/* 
- .container{
-  position: relative;
-  width: 400px;
-  background: #111;
-  padding: 10px 30px;
-  border: 1px solid #444;
-  border-radius: 5px;
-  display:flex;
-  align-items:flex-end;
-  justify-content: center;
-  flex-direction: column;
-  border: 3px solid yellowgreen; 
-  width: 250px;
-  max-width: 100%;
-} */
-/* ul li::marker{
-  content: "👨 ";
- color: black;
- font-size: 1.5em; 
- }  */
-
-/* 
-.container .post{
-  display: none;
-}
-.container .text{
-  font-size: 25px;
-  color: #666;
-  font-weight: 500;
-}
-.container .edit{
-  position: absolute;
-  right: 10px;
-  top: 5px;
-  font-size: 16px;
-  color: #666;
-  font-weight: 500;
-  cursor: pointer;
-}
-.container .edit:hover{
-  text-decoration: underline;
-}
-.container .star-widget input{
-  display: none;
-}
-.star-widget label{
-  font-size: 40px;
-  color: #444;
-  padding: 10px;
-  float: right;
-  transition: all 0.2s ease;
-}
-input:not(:checked) ~ label:hover,
-input:not(:checked) ~ label:hover ~ label{
-  color: #fd4;
-}
-input:checked ~ label{
-  color: #fd4;
-}
-input#rate-5:checked ~ label{
-  color: #fe7;
-  text-shadow: 0 0 20px #952;
-}
-#rate-1:checked ~ form header:before{
-  content: "I just hate it 😞  ";
-}
-#rate-2:checked ~ form header:before{
-  content: "I don't like it 🙁";
-}
-#rate-3:checked ~ form header:before{
-  content: "It is awesome 🙂";
-}
-#rate-4:checked ~ form header:before{
-  content: "I just like it 😃 ";
-}
-#rate-5:checked ~ form header:before{
-  content: "I just love it 😁";
-}
-.container form{
-  display:none;
+ .container,.left{
+  margin-left: -300px;
  
-}
-input:checked ~ form{
-  display: block;
-}
-form header{
-  width: 100%;
-  font-size: 25px;
-  color: #fe7;
-  font-weight: 500;
-  margin: 5px 0 20px 0;
+ 
+  display: flex;
+  justify-content: center;
+ 
+ 
+ }
+ h1{
+  margin-left: 100px;
+ }
+ a{
+ margin-left: 20px;
+ }
+ .social-icons{
+  margin-left: -50px;
+  margin-bottom: 30px;
+ }
+ .content {
+  
+ text-align: center;
+ }
+ .card-body{
+  margin-left: 380px;
+ }
+ h2{
+  margin-right: 400px;
   text-align: center;
-  transition: all 0.2s ease;
+
+ }
+ #input{
+  margin-right: 100px;
+  
+ 
+ }
+ button{
+  margin-left: -70px ;
+ 
+ }
+ label{
+  margin-left: 70px;
+ }
+ .right{
+  margin-left: -150px;
+  display: flex;
+  position: absolute;
+  margin-top: 380px;
+  padding-bottom: 180px;
 }
-form .textarea{
-  height: 100px;
-  width: 100%;
-  overflow: hidden;
 }
-form .textarea textarea{
-  height: 100%;
-  width: 100%;
-  outline: none;
-  color: #eee;
-  border: 1px solid #333;
-  background: #222;
-  padding: 10px;
-  font-size: 17px;
-  resize: none;
-}
-.textarea textarea:focus{
-  border-color: #444;
-}
-form .btn{
-  height: 45px;
-  width: 100%;
-  margin: 15px 0;
-}
-form .btn button{
-  height: 100%;
-  width: 100%;
-  border: 1px solid #444;
-  outline: none;
-  background: #222;
-  color: #999;
-  font-size: 17px;
-  font-weight: 500;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-form .btn button:hover{
-  background: #1b1b1b;
-} */
+
+ 

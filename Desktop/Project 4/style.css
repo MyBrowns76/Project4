@@ -703,9 +703,51 @@ h5{
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+  and (-webkit-min-device-pixel-ratio: 2)
+  
+  {
+h1, p{
+  margin-right: 15px;
 }
+.icon{
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.navbar{
+  margin-right: 100px;
+}
+.btn{
+ 
+ margin-left: 5px;
+}
+
+/* h2{
+  margin-right: 100px;
+} */
+.container{
+  margin-right: 100px;
+  margin-left: -120px;
+}
+h2{
+  margin-left: 40px;
+}
+p{
+  text-align: center;
+}
+.social-icons{
+  /* position:relative; */
+ padding-bottom: 20px;
+ margin-bottom: 20px;
+ padding-left: 100px;
+padding-right: -200px;
+ 
+justify-content:end;
+}
+
+.content, .things{
+  margin-left: -60px;
+}
+
 
 /* Portrait */
 @media only screen 
@@ -812,17 +854,146 @@ h5{
     margin-left: -200px;
   }
 }
-@media only screen and (max-width: 768px){
-  .carousel-inner  {
-    z-index: 10 !important;
-  
+/* @media (min-width: 200px) { 
+  .fab{
+    margin-right: 100px;
   }
+ } */
+ /* @media (min-width: 1000px) { 
+  .fab{
+    margin-right: 200px;
   }
-  
- 
-  
+ } */
+@media screen and (max-width: 1200px) {
+  .carousel-inner{
+    text-align: center;
+  }
 
+  @media (min-width: 1250px) { 
+    .carousel-inner{
+      margin-left: 325px;
+    }
+   }
+   @media (min-width: 700px) { 
+    .carousel-inner{
+      margin-left: 125px;
+    }
+   }
+   @media (min-width: 300px) { 
+    .carousel-inner {
+      margin-left: 125px;
+    }
+   }
+   @media (min-width: 1100px) { 
+    .carousel-control-prev-icon{
+      margin-left: -250px;
+    }
+   }
+   @media (min-width: 700px) { 
+    .carousel-control-prev-icon{
+      margin-left: -100px;
+    }
+   }
+   @media (min-width: 700px) { 
+    .carousel-control-next-icon{
+      margin-right: -140px;
+    }
+   }
+   @media (min-width: 1000px) { 
+    .carousel-control-prev-icon{
+      margin-left: -140px;
+    }
+   }
+   @media (min-width: 1000px) { 
+    .carousel-control-next-icon{
+      margin-right: 10px;
+    }
+   }
+   @media (min-width: 1200px) { 
+    .carousel-control-prev-icon{
+      margin-left: -180px;
+    }
+   }
+   @media (min-width: 700px) { 
+    button{
+      margin-right: 100px;
+    }
+   }
+   @media (min-width: 500px) { 
+    button{
+      margin-right: 100px;
+    }
+   }
+   @media (min-width: 200px) { 
+    button {
+      margin-right: 100px;
+    }
+   }
+   @media (min-width: 200px) { 
+    #myBtn {
+      margin-right: -10px;
+    }
+   }
+   @media (min-width: 1000px) { 
+    #myBtn {
+      margin-right: -200px;
+    }
+   }
+  
+   @media (min-width: 200px) { 
+    .social-icons {
+      margin-left: 200px;
+    }
+   }
+    /* @media (min-width: 1200px) { 
+    .icon {
+      overflow-x: visible;
 
+    }
+   }
+  }  */
+    @media (min-width: 1100px) { 
+    .icon {
+      
+      margin-left: 50px;
+   
+    }
+   } 
+    @media (min-width: 1106px) { 
+    .icon {
+      
+      margin-left: 350px;
+   
+    }
+   } 
+   @media (min-width: 700px) { 
+    .icon {
+      
+      margin-left: 280px;
+   
+    }
+   }
+   @media (min-width: 715px) { 
+    .icon {
+      
+      margin-left: 350px;
+   
+    }
+   }
+   @media (min-width: 500px) { 
+    .icon {
+      
+      margin-left: 350px;
+   
+    }
+   }
+   @media (min-width: 300px) { 
+    .icon {
+      
+      margin-left: 300px;
+   
+    }
+   } 
   
  
 
