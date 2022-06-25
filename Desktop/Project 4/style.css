@@ -120,6 +120,13 @@ background-color: rgba(128, 128, 128, 0);
   
   
  }
+ .btn1{
+  border-radius:  10px / 5px;
+  size-adjust: 50px;   
+  background-color: #00BBC9;
+  border-color: greenyellow;
+  
+ }
 /* body::-webkit-scrollbar {
   width: 15px;  */
   
@@ -676,9 +683,144 @@ h5{
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  
+  {
+     /* p{
+      margin-left: -5px;
+    } */
+    .icon{
+      padding-top: 10px;
+      margin-left: 160px;
+     
+     
+    }
+    #myBtn{
+      left: 185px;
+      right: auto;
+    }
+    button{
+      left: 175px;
+      right: auto;
+    }
+   
+    .lead{
+    
+      padding-right: 120px;
+      padding-left: 15px;
+      margin-bottom: 30px;
+    }
+    img{
+      padding-right: 90px;
+    }
+    h1{
+     padding-right: 160px;
+     margin-left: 50px;
+    }
+    .navbar{
+      margin-right: 210px;
+    }
+    .btn{
+     
+     margin-left: -190px;
+     
+    }
+    .navbar-toggler{
+      margin-right: 10px;
+    }
+    .things{
+      /* margin: -10px; */
+      position: absolute;
 
-}
+     left: -30px;
+    }
+   
+    .btn1{
+     
+      margin-left: 70px;
+      
+     }
+     #formbutton-buttonImage{
+     
+     }
+    .fab{
+    text-align: center;
+    margin-left: -10px;
+  
+    }
+    .offcanvas-body, .dropdown-menu{
+      text-align: center;
+    }
+    h6{
+      margin-left: 140px;
+     
+    }
+    /* .offcanvas-header{
+      margin-left: 60px;
+    } */
+    /* .btn-close text-reset{
+      margin-left: -200px;
+    } */
+   /* #formbutton-body{
+    align-content: flex-end;
+   } */
+   
+    /* h2{
+      margin-right: 100px;
+    } */
+    .offcanvas-header{
+      margin-right: 60px;
+      margin-left: -5px;
+     ;
+    }
+    .container{
+      margin-right: 150px;
+      margin-left: -120px;
+      
+     
+    }
+    h2{
+  text-align: center;
+  padding-right: 130px;
+
+    }
+    .navbar{
+      margin-right: 425px;
+    }
+    h5{
+   
+      padding-right: 90px;
+    
+        }
+   body{
+    /* background-image:none; */
+   margin: -20px;
+ 
+    
+   }
+   body, html {
+    /* height: 100%;
+    background-size: cover;
+     */
+  }
+   
+    p{
+      padding-right: 120px;
+      padding-left: 15px;
+      text-align: center;
+    }
+    
+    .social-icons{
+    
+     padding-bottom: 20px;
+    
+    
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding-right: 445px;
+      
+  
 
 /* Portrait */
 @media only screen 
@@ -707,26 +849,34 @@ h5{
   
   {
 h1, p{
-  margin-right: 15px;
+  margin-right: 25px;
+ 
 }
 .icon{
-  padding-top: 10px;
-  padding-right: 10px;
+  padding-top: 0px;
+  margin-right: -300px;
+  
+ 
 }
 .navbar{
-  margin-right: 100px;
+  margin-right: 210px;
 }
 .btn{
  
- margin-left: 5px;
+ margin-left: 25px;
 }
+.fab{
 
+ padding-left: 200px;
+ margin-right: 500px;
+}
 /* h2{
   margin-right: 100px;
 } */
 .container{
-  margin-right: 100px;
+  margin-right: 150px;
   margin-left: -120px;
+ 
 }
 h2{
   margin-left: 40px;
@@ -735,19 +885,37 @@ p{
   text-align: center;
 }
 .social-icons{
-  /* position:relative; */
+  position:relative;
  padding-bottom: 20px;
- margin-bottom: 20px;
- padding-left: 100px;
-padding-right: -200px;
+
+
  
-justify-content:end;
-}
+  padding-left: 0px;
+  display: block; 
+  float:inline-start;
+/* width: 5px; */
+ margin-left: 70px !important;
 
+ right: 160px;
+
+ align-items: baseline;
+  margin-bottom: 20px;
+}
+/* .nav-item{
+padding-left: 10px;
+} */
 .content, .things{
-  margin-left: -60px;
+  margin-left: 180px;
 }
-
+#myBtn{
+margin-right: 200px  !important;
+  
+}
+#formbutton-button{
+  margin-right: 230px !important;
+}
+.container-fluid{
+  width:0%
 
 /* Portrait */
 @media only screen 

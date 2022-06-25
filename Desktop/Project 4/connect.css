@@ -517,9 +517,93 @@ button:hover{
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 320px) 
+  and (min-device-width: 280px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+    .container,.left{
+      margin-left: -300px;
+     
+     
+      display: flex;
+      justify-content: center;
+     
+     
+     }
+     .options{
+      margin-right: 15px;
+     }
+     p{
+      padding-left: 55px;
+     }
+     h1{
+      margin-left: 40px;
+     }
+     a{
+     margin-left: 20px;
+     }
+     .social-icons{
+      margin-left: -100px;
+      margin-bottom: 30px;
+     }
+     .content  {
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;
+     font-size: medium !important;
+    font-weight: 500;
+    color: yellow;
+     }
+   
+     #myBtn{
+      left: 290px;
+      right: auto;
+    }
+     .card-body{
+      margin-left: 340px;
+     }
+     h2{
+      margin-right: 460px;
+      text-align: center;
+    
+     }
+    
+    a{
+      margin-left: -5px;
+    }
+     label{
+      padding-right: 170px;
+      text-align: center;
+    
+     }
+     #input{
+      margin-right: 80px;
+      
+     
+     }
+     button{
+      margin-left: -80px ;
+     
+     }
+     .fab{
+      /* text-align: center; */
+      margin-left: 0px;
+    
+      }
+      ul{
+        margin-right: -25px !important;
+   
+      }
+     label{
+      margin-left: 70px;
+     }
+     .right{
+      margin-left: -150px;
+      display: flex;
+      position: absolute;
+      margin-top: 380px;
+      padding-bottom: 180px;
+    }
+    }
 
 }
 
@@ -547,8 +631,85 @@ button:hover{
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    .container,.left{
+      margin-left: -300px;
+     
+     
+      display: flex;
+      justify-content: center;
+     
+     
+     }
+     p{
+      padding-left: 15px;
+     }
+     h1{
+      margin-left: 80px;
+     }
+     a{
+     margin-left: 20px;
+     }
+     .social-icons{
+      margin-left: -50px;
+      margin-bottom: 30px;
+     }
+     .content  {
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     text-align: center;
+     font-size: larger !important;
+    font-weight: 500;
+    color: yellow;
+     }
+   
+     #myBtn{
+      left: 360px;
+      right: auto;
+    }
+     .card-body{
+      margin-left: 380px;
+     }
+     h2{
+      margin-right: 460px;
+      text-align: center;
+    
+     }
+    
 
-}
+     label{
+      padding-right: 150px;
+      text-align: center;
+    
+     }
+     #input{
+      margin-right: 100px;
+      
+     
+     }
+     button{
+      margin-left: -80px ;
+     
+     }
+     .fab{
+      text-align: center;
+      margin-left: -10px;
+    
+      }
+      ul{
+        margin-left: -20px !important;
+      }
+     label{
+      margin-left: 70px;
+     }
+     .right{
+      margin-left: -150px;
+      display: flex;
+      position: absolute;
+      margin-top: 380px;
+      padding-bottom: 180px;
+    }
+    }
+    
+
 
 /* Portrait */
 @media only screen 
